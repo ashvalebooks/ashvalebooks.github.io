@@ -115,6 +115,20 @@ body {
     font-style: italic;
 }
 
+#frontpage {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#frontpage img {
+    width: 250px;
+    height: 375px;
+}
+
 header {
     text-align: center;
     margin-top: 20px;
