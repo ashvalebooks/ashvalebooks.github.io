@@ -1,6 +1,11 @@
 html,
 body,
 div,
+main,
+.wrapper,
+.stories,
+header,
+footer,
 span,
 applet,
 object,
@@ -85,6 +90,7 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    width: auto;
 }
 
 html {
@@ -104,10 +110,12 @@ body {
     min-height: 100%;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    margin:0;
 }
 
 .stories {
     text-align: left;
+    margin:0;
 }
 
 .email {
@@ -153,6 +161,7 @@ main {
 main h2 {
     margin-bottom: 10px;
     font-weight: bold;
+    font-size: 20px;
 }
 
 main a {
@@ -189,8 +198,12 @@ footer li {
     max-width: 250px;
 }
 
+.date {
+    font-weight: bold;
+}
+
 header hr {
-    max-width: 400px;
+    max-width: 500px;
     border-top: 1px solid;
     border-bottom: none;
     margin: auto;
@@ -220,6 +233,10 @@ header li {
 li a {
     color: black;
     text-decoration: none;
+}
+
+.desc {
+    font-style: italic;
 }
 
 li a:hover {
