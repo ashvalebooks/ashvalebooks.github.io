@@ -166,7 +166,7 @@ main h2 {
 }
 
 main a {
-    color: black;
+    color: rgb(211, 24, 218);
 }
 
 main a:hover {
@@ -240,6 +240,10 @@ li a {
     font-style: italic;
 }
 
+.squish {
+    display: inline;
+}
+
 li a:hover {
     color: rgb(211, 24, 218);
 }
@@ -252,4 +256,9 @@ ul {
 .responsive {
     max-width: 300px;
     height: auto;
+}
+
+.bold {
+    font-weight: bold;
+    display: inline;
 }
