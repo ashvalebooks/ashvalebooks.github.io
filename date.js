@@ -1,0 +1,1 @@
+document.getElementById("year").innerHTML = "copyright © " + new Date().getFullYear() + " ash vale. all rights reserved";
